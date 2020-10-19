@@ -1,5 +1,5 @@
 #!/bin/bash
-echo This script will install MySQL using Docker;
+echo This shell will install MySQL using Docker;
 echo -n "Please Input Root Password:";
 read rootpwd;
 mkdir -p /volume/mysql/data /volume/mysql/conf /volume/mysql/logs
